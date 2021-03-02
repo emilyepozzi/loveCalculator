@@ -8,7 +8,7 @@
 // give back percentage in the form of an alert telling them what the Love Score is
 
 var person1 = prompt("What is your name?");
-var person2 = prompt("What is their name?");
+var person2 = prompt("What is your crushes name?");
 
 var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1; //1-100
