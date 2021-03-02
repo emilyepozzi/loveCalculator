@@ -14,12 +14,14 @@ var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1; //1-100
 
 if (loveScore > 75) {
-    alert("Your Love Score is : " + loveScore + "% !! " + "You love eachother like Kanye loves Kanye" );
-if (loveScore > 30 && <= 75) {
-    alert("Your love score is " + loveScore + "%");
+    alert(person1 + " ❤️ " + person2 + " Love Score is : " + loveScore + "% !! " + "You love eachother like Kanye loves Kanye" );
 }
+if (loveScore > 30 && loveScore <= 75) {
+    alert(person1 + " ❤️ " + person2 + " Love Score is : " + loveScore + "%");
+}
+
 if (loveScore < 30) {
-    alert("Your love score is " + loveScore "%." + " You go together like oil and water." );
+    alert(person1 + " 💔 " + person2 +  " Love score is " + loveScore + "%." + " You go together like oil and water." );
 }
 
 
